@@ -1,4 +1,5 @@
 from flet import *
+import flet
 from data import data_burger,data_drinks,data_twister
 
 burger_list = Column(scroll="auto")

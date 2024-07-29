@@ -1,7 +1,9 @@
 from flet import *
+import flet
 from appmenu import jumbotron
 from cardsection import sectioncard
 from tabsmenu import tabs_menu
+
 def main(page:Page):
 	page.padding = 0
 	page.spacing = 0 
@@ -13,7 +15,7 @@ def main(page:Page):
 
 		# FOR TABS SECTION
 	Container(
-	border_radius = border_radius.only(topLeft=30,topRight=30),
+	border_radius = border_radius.only(top_right=20,top_left=20),
 	# for GET FULL WIDTH
 	width=page.window_width,
 	bgcolor="white",
